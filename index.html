@@ -1,60 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zedguide</title>
-    <link rel="stylesheet" href="css/style.css">
-</body>
-</html>
-    <header>
-    <img src="img/Zed (1).jpg" alt="">
-     <h1>Guia de Zed</h1>
-     <nav>
-      <div class="barra">
-        <ul>
-            <li><a href="index.html"a>Home</li>
-             <li><a href="sobre.html"a>Sobre</li>
-             <li><a href="contato.html"a>Contato</li>       
-            </ul>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joaquim Guedes | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="topo"></div>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="imagens/logoPortifolio.png" alt="Foto de Joaquim Guedes">
+        <h1>oaquim Guedes</h1>
+        <span class="slogan">| Portfólio</span>
         </div>
-
-        </nav>
-    </header>  
-    <main>
-    <p>
-    Jogar com Zed, o mestre das sombras em League of Legends, exige habilidade e precisão. Como um assassino ágil, sua principal mecânica é a manipulação das sombras, que permite evadir, atacar e surpreender os inimigos. No início da partida, foque em farmar e acumular ouro para garantir seus itens principais, como o Lâmina Fantasma de Youmuu e a Lâmina do Ladrão de Essence.
     
-    Ao enfrentar adversários, utilize sua habilidade "Rapidez das Sombras" para se aproximar ou escapar rapidamente. Combine-a com a "Lâmina Sombria" para causar danos explosivos e confundir seus oponentes. Lembre-se de utilizar as sombras de forma estratégica: posicione-as antes de um confronto para garantir sua rota de fuga ou aumentar seu dano.
-    
-    No meio da partida, concentre-se em emboscar os inimigos em áreas com pouca visão, aproveitando sua capacidade de deslocamento e burst damage para eliminar alvos prioritários. Durante as lutas em equipe, aguarde o momento certo para entrar, buscando alvos isolados ou os mais vulneráveis.
-    
-    Por fim, mantenha-se atento à posição dos inimigos e evite confrontos diretos sem o apoio da equipe. Zed é mortal quando jogado com precisão e timing, então pratique suas habilidades e dominará as sombras com maestria.</p>
-    <img src="img/galaxy slayer zed.jpg" style="width: 38%; height:750px">
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+      </ul>
+
+      <div class="buttons">
+        
+        <button onclick="toggleDarkMode()">Modo Escuro</button>
+        <button onclick="toggleLanguage()">Trocar Idioma</button>
+      </div>
 
 
+    </nav>
+  </header>
 
-     </main>
+  <section id="hero">
+    <img src="imagens/foto_joaquim.png" alt="Foto de Joaquim Guedes" class="foto-joaquim">
+    <h2 class="hero-title">Olá, eu sou o Joaquim</h2>
+    <p>Desenvolvedor Front-end | UI/UX Designer | Freelancer</p>
+    <a href="#projetos" class="btn">Ver Projetos</a>
+  </section>
+  
+  <section id="sobre">
+    <div class="sobre-mim-container">
+      <h2>Sobre mim</h2>
+      <p>
+        Meu nome é Joaquim Barbosa Guedes, tenho atualmente 17 anos, sou um estudante de informática do Colégio Ulbra São Lucas e estudante do ensino médio no colégio Augusto Meyer. Comecei a me interessar por programação aos 16 anos, quando iniciei o curso. Desde então, aprendi sobre <strong>Back-End</strong>, <strong>Front-End</strong> e muito sobre <strong>Java</strong>!<br><br>
+        Sempre fui fã de jogos e, desde pequeno, tinha curiosidade para aprender sobre como eles funcionavam. Foi isso que despertou em mim a vontade de aprender a programar e sigo aprendendo sobre tudo que envolve programação, um dos meus maiores passa tempos é jogar jogos competitivos, independente de qual seja, eu gosto muito de vencer e não me contento com a derrota, o que me torna um cara muito competitivo
+      </p>
+    </div>
+  </section>
+
+  <section id="habilidades">
+    <h2>Minhas Habilidades</h2>
+
+    <div class="habilidade">
+      <h3>HTML5</h3>
+      <p>HTML é a linguagem de marcação usada para estruturar páginas da web. Ele define títulos, parágrafos, links, imagens e muito mais.</p>
+    </div>
+
+    <div class="habilidade">
+      <h3>CSS3</h3>
+      <p>CSS é a linguagem de estilos usada para definir o visual das páginas, como cores, fontes, tamanhos e layout responsivo.</p>
+    </div>
+
+    <div class="habilidade">
+      <h3>JavaScript</h3>
+      <p>JavaScript é uma linguagem de programação que permite criar interatividade nas páginas web, como animações, botões funcionais e formulários dinâmicos.</p>
+    </div>
+
+    <div class="habilidade">
+      <h3>Java</h3>
+      <p>Java é uma linguagem de programação robusta e amplamente usada para desenvolver aplicativos desktop, Android e sistemas back-end.</p>
+    </div>
+
+    <div class="habilidade">
+      <h3>Git & GitHub</h3>
+      <p>Git é um sistema de controle de versões, e o GitHub é uma plataforma onde você armazena e compartilha seus projetos com outras pessoas.</p>
+    </div>
+
+    <div class="habilidade">
+      <h3>UI/UX Design</h3>
+      <p>UI (Interface) e UX (Experiência do Usuário) são áreas que cuidam da aparência e da facilidade de uso de aplicativos e sites.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Confira meus projetos</h2>
+    <div class="projetos-grid">
+      <div class="projeto">
+        <h3>Teste casa guru</h3>
+        <a href="https://github.com/JoaquimBarbosa16/TesteCasaGuru" target="_blank">Ver no GitHub</a>
+      </div>
       
-     <footer>
-            <div class="footer">
-                <a href="index.html"><img src="img/Zed (1).jpg"></a>
-            </div>
-            <div class="footer2">
-                <p>
-                    <a href="index.html">Home: Página principal</a> <br>
-                    <a href="sobre.html">Sobre: Aqui tem os dados do site</a> <br>
-                    <p>
-                        Criado por: Joaquim Barbosa Guedes<br> 
-                        GitHub: <a href="https://github.com/JoaquimBarbosa16">JoaquimBarbosa16</a><br>
-                </p>       
-       
-            </div>
-        </footer>
-       
+      <div class="projeto">
+        <h3>Site Final</h3>
+        <a href="https://github.com/JoaquimBarbosa16/SiteFinal" target="_blank">Ver no GitHub</a>
+      </div>
+  
+      <div class="projeto">
+        <h3>Site UiUx</h3>
+        <a href="https://github.com/JoaquimBarbosa16/SiteUiUx" target="_blank">Ver no GitHub</a>
+      </div>
+        
+      <div class="projeto">
+          <h3>Perfumaria</h3>
+          <a href="https://github.com/JoaquimBarbosa16/Perfumaria" target="_blank">Ver no GitHub</a>
+        </div>
+        
+        <div class="projeto">
+          <h3>Projeto Final</h3>
+          <a href="https://github.com/JoaquimBarbosa16/ProjetoFinal" target="_blank">Ver no GitHub</a>
+        </div>
+     
+        <div class="projeto">
+          <h3>Projeto Cadastro</h3>
+          <a href="https://github.com/JoaquimBarbosa16/ProjetoCadastro" target="_blank">Ver no GitHub</a>
+        </div>
+     
+      </div>
+    </div>
+  </section>
 
-    </footer>
-
-
+  <section id="contato">
+    <div class="icones-contato">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=joaquimbarbosa24023@gmail.com" target="_blank">
+        <img src="imagens/emailIcone.png" alt="Email" class="icone-contato">
+      </a>
+  
+      <a href="https://github.com/JoaquimBarbosa16" target="_blank">
+        <img src="imagens/githubIcon.png" alt="GitHub" class="icone-contato">
+      </a>
+  
+      <a href="https://www.linkedin.com/in/joaquim-barbosa-a22001323/" target="_blank">
+        <img src="imagens/linkedin.png" alt="LinkedIn" class="icone-contato">
+      </a>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2025 Joaquim Guedes. Todos os direitos reservados.</p>
+  </footer>
+  
+  <a href="#topo" class="btn-topo" title="Voltar ao topo">🔝</a>
+ 
+<script src="java.js"></script>
 </body>
 </html>
